@@ -23,7 +23,7 @@ const Banner = () =>(
             <Button className="btcoracao d-grid gap-2" variant="primary" size="lg"><span className="textado">Adoção </span></Button>{' '}
         </Col>
         <Col className="d-grid gap-2">
-            <Button className="btpegada d-grid gap-2" variant="primary" size="lg"><span className="textado">Doação</span></Button>
+            <Button className="btpegada d-grid gap-2" variant="primary" size="lg" link href="/cadastropet"><span className="textado">Doação</span></Button>
         </Col>
         </Row> 
 

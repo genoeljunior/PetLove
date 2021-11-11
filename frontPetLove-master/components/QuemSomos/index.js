@@ -6,6 +6,11 @@ const Top = () =>(
     
     <Container>        
         <Row>
+        <Row >
+              <div className="">
+                  <Image src="/pegadas.png" width={256} height={105} />
+              </div>
+          </Row>
             <Col>
             <div><h1 class= "toptexto">Quem somos</h1></div>
             <div class ="cuidados">                                                
@@ -34,7 +39,12 @@ const Top = () =>(
                     </span>
                 </p>
             </div>            
-            </Col>                                           
+            </Col>    
+            <Row >
+              <div className="pegadas">
+                  <Image src="/pegadas.png" width={256} height={105} />
+              </div>
+          </Row>                                       
         </Row>
     </Container>
 );

@@ -7,10 +7,7 @@ import { ReactDOM } from 'react-dom';
 import Top from '../components/Top';
 import BannerCuidado from '../components/BannerCuidado'
 import Cuidados from '../components/Cuidados'
-import CatServico from '../components/CatServico'
 import Footer from '../components/Footer'
-
-
 
 export default function Home() {
   return (
@@ -18,7 +15,6 @@ export default function Home() {
         <Top/>
         <BannerCuidado/>
         <Cuidados/>
-        <CatServico/>
         <Footer/>
     </div>
   )

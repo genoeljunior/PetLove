@@ -5,9 +5,8 @@ import React from 'react';
 import { ReactDOM } from 'react-dom';
 
 import Top from '../components/Top';
-import Banner from '../components/Banner'
+import BannerQuemSomos from '../components/BannerQuemSomos'
 import QuemSomos from '../components/QuemSomos'
-import CatServico from '../components/CatServico'
 import Footer from '../components/Footer'
 
 
@@ -16,9 +15,8 @@ export default function Home() {
   return (
     <div >
         <Top/>
-        <Banner/>
+        <BannerQuemSomos/>
         <QuemSomos/>
-        <CatServico/>
         <Footer/>
     </div>
   )

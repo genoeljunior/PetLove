@@ -80,10 +80,19 @@ a {
   background-color: #3F213B;
   height: 378px;
 }
-
+.bannerquemsomos{
+  background-image: url("/quemsomos.jpg")  ;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: #3F213B;
+  height: 378px;
+}
 
 .tdlog{
   background: #E380490F;
+}
+.pegadas{
+  text-align: right;
 }
 
 
@@ -94,7 +103,33 @@ a {
   background-color: #3F213B;
   height: 378px;
 }
-
+.adotequemsomos{  
+  color: #3F213B !important;
+  font-size: 5em;
+  padding-top: 80px;
+  margin-left: 60px;
+  font-family: cursive;  
+}
+.adotequemsomos2{  
+  color: #3F213B !important;
+  font-size: 5em;
+  margin-left: 100px;
+  font-family: cursive;  
+}
+.ligacao {
+  color: #3F213B !important;
+  margin-right: 50px ;
+  text-align: right;
+  font-size: 3em;
+  font-family: cursive;
+}
+.adotecuidado2{  
+  color: #3F213B !important;
+  font-size: 4em;
+  text-align: right;
+  margin-right: 80px;
+  font-family: cursive;  
+}
 .adotecuidado{  
     color: #3F213B !important;
     padding-top: 80px;

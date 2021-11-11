@@ -86,7 +86,12 @@ const Top = () =>(
                     Esse equipamento garante excelente qualidade de imagem, rapidez na aquisição de dados e acurácia diagnóstica.</span></p> 
                     <p class="fonte"><a href="https://www.imexmedicalgroup.com.br/blog/quais-sao-os-principais-cuidados-com-a-saude-dos-pets/">Artigo fonte.</a></p>             
             </div>            
-            </Col>                                           
+            </Col>  
+            <Row >
+              <div className="#">
+                  <Image src="/pegadas.png" width={256} height={105} />
+              </div>
+          </Row>                                   
         </Row>
     </Container>
 );
