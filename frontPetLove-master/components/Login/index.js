@@ -4,28 +4,28 @@ import Image from "next/image";
 
 const Login = () =>(
 
-    <Container >
-    <Row>
-      <Col >
+    <Container  className="imglog">
+    <Row className="linhalog">
+      <Col className="tdlog">
         <Image src="/log1.jpg" width={570} height={778} />
       </Col>
       <Col >
         <h1>login</h1>
         <form>
-          <div >
-            <label for="exampleInputEmail1" >Nome</label>
-            <input type="Nome" id="exampleInputEmail1" aria-describedby="logNome"/>
-            <div id="logNome" >Digite seu nome.</div>
+          <div className="mb-3">
+            <label for="exampleInputEmail1" class="form-label-sm">Nome</label>
+            <input type="Nome" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="logNome"/>
+            <div id="logNome" class ="form-text">Digite seu nome.</div>
           </div>
-          <div >
-            <label for="exampleInputPassword1" >Password</label>
-            <input type="password" id="exampleInputPassword1"/>
+          <div className="mb-3">
+            <label for="exampleInputPassword1" class="form-label-sm">Password</label>
+            <input type="password" class="form-control form-control-sm" id="exampleInputPassword1"/>
           </div>
-          <div>
-            <input type="checkbox"  id="exampleCheck1"/>
-            <label for="exampleCheck1">Check me out</label>
+          <div className="mb-3 form-check">
+            <input type="checkbox"  id="exampleCheck1"  class="form-check-input" id="exampleCheck1"/>
+            <label for="exampleCheck1" class ="form-check-label">Check me out</label>
           </div>
-          <div><button type="submit" class="btvejamais">Entrar</button></div>
+          <div className="d-grid gap-2"><button type="submit" class="btn btn-primary btvejamais lg">Entrar</button></div>
           
         </form>
 
